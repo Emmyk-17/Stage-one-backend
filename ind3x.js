@@ -50,3 +50,4 @@ import('node-fetch').then((fetch) => {
 }).catch((err) => {
     console.error('Failed to import node-fetch:', err);
 });
+module.exports = app;
